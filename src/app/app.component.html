@@ -1,0 +1,18 @@
+<h1> expand </h1>
+<div class="a">
+<div class="container" #container>
+	<button class="add-item" #addnew (click) = "add(container,addnew)">
+      Add
+  </button>
+  <div class="new-section" #newSection>
+    <input class="ip" type="text">
+    <select class="select"><option>size range</option></select>
+      <button class="apply" (click) = "apply(container,addnew)">
+      Apply
+  </button>
+    <button class="cancel" (click) = "cancel(container,addnew)">
+      cancel
+  </button>
+</div>
+</div>
+<span>Push me</span></div>
