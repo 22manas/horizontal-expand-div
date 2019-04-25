@@ -1,7 +1,7 @@
 <h1> expand </h1>
-<div class="a">
-<div class="container" #container>
-	<button class="add-item" #addnew (click) = "add(container,addnew)">
+<div class="wrapper">
+	<div class="container" #container>
+		<button class="add-item" #addnew (click) = "add(container,addnew)">
       Add
   </button>
   <div class="new-section" #newSection>
@@ -15,4 +15,13 @@
   </button>
 </div>
 </div>
-<span>Push me</span></div>
+      <button class="apply" (click) = "apply(container,addnew)">
+      Delete
+  </button>
+      <select class="select"><option>size range</option></select>
+<div class="final">
+        <button class="apply" (click) = "apply(container,addnew)">
+      Save</button>
+</div>
+</div>
+<!-- <span>Push me</span></div> -->

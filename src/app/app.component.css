@@ -4,16 +4,16 @@ p {
 
 .container {
   /* background-color: cyan; */
-  width: 40px;
+  width: 45px;
   display: flex;
-  transition:  1s;
+  transition:  1.5s;
   transition-property: all;
   overflow-x: hidden;
 }
 
 .add-item {
-  opacity: 1;
- transition: opacity 1s ease-out;
+ opacity: 1;
+ transition: opacity 1.5s ease-out;
  visibility: visible;
 }
 
@@ -28,10 +28,23 @@ p {
 }
 
 .container-add {
-  width: 400px;
+  width: 450px;
   transform: translateX(-40px);
 }
 
 .a {
   display: flex;
+}
+
+button , input , select{
+  margin: 5px;
+}
+
+.wrapper {
+  display: flex;
+  width: 750px;
+}
+
+.final{
+  margin-left: auto;
 }
